@@ -90,13 +90,7 @@ PRODUCT_COPY_FILES += \
 #Moto etc
 PRODUCT_COPY_FILES += \
         vendor/motorola/jordan/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-        vendor/motorola/jordan/etc/wifi/fw_tiwlan_ap_rfmd.bin:system/etc/wifi/fw_tiwlan_ap_rfmd.bin \
         vendor/motorola/jordan/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
-        vendor/motorola/jordan/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
-        vendor/motorola/jordan/etc/fmc_init_1273.2.bts:system/etc/fmc_init_1273.2.bts \
-        vendor/motorola/jordan/etc/fmc_init_6450.2.bts:system/etc/fmc_init_6450.2.bts \
-        vendor/motorola/jordan/etc/fm_rx_init_1273.2.bts:system/etc/fm_rx_init_1273.2.bts \
-        vendor/motorola/jordan/etc/fm_rx_init_6450.2.bts:system/etc/fm_rx_init_6450.2.bts \
         vendor/motorola/jordan/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
         vendor/motorola/jordan/etc/cameraCalFileDef8M.bin:system/etc/cameraCalFileDef8M.bin \
         vendor/motorola/jordan/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
@@ -138,7 +132,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/opprofdaemon:system/bin/opprofdaemon \
 	vendor/motorola/jordan/bin/nvm_daemon:system/bin/nvm_daemon \
 	vendor/motorola/jordan/bin/gkisystem:system/bin/gkisystem \
-	vendor/motorola/jordan/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
 	vendor/motorola/jordan/bin/ap_gain.bin:system/bin/ap_gain.bin \
 	vendor/motorola/jordan/bin/fmradioserver:system/bin/fmradioserver \
 	vendor/motorola/jordan/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
