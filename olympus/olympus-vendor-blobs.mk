@@ -68,9 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/tund:system/bin/tund \
     vendor/motorola/olympus/proprietary/bin/bt_init:system/bin/bt_init \
     vendor/motorola/olympus/proprietary/bin/bt_downloader:system/bin/bt_downloader \
-    vendor/motorola/olympus/proprietary/bin/sdptool:system/bin/sdptool \
-    vendor/motorola/olympus/proprietary/bin/Hostapd:system/bin/Hostapd \
-    vendor/motorola/olympus/proprietary/bin/remountpds:system/bin/remountpds \
     vendor/motorola/olympus/proprietary/bin/battd:system/bin/battd \
     vendor/motorola/olympus/proprietary/bin/usbd:system/bin/usbd \
     vendor/motorola/olympus/proprietary/bin/whisperd:system/bin/whisperd \
@@ -100,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/touchpad/22/touchpad.cfg:system/etc/touchpad/22/touchpad.cfg \
     vendor/motorola/olympus/proprietary/etc/bt_init.config:system/etc/bt_init.config \
     vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
+    vendor/motorola/olympus/proprietary/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
     vendor/motorola/olympus/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options
 
 # system libs
@@ -146,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libril_rds.so:system/lib/libril_rds.so \
     vendor/motorola/olympus/proprietary/lib/libmoto_ril.so:system/lib/libmoto_ril.so \
     vendor/motorola/olympus/proprietary/lib/librds_util.so:system/lib/librds_util.so \
-    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/motorola/olympus/proprietary/lib/libnmea.so:system/lib/libnmea.so \
     vendor/motorola/olympus/proprietary/lib/libbattd.so:system/lib/libbattd.so \
     vendor/motorola/olympus/proprietary/lib/libnvrm_channel.so:system/lib/libnvrm_channel.so
