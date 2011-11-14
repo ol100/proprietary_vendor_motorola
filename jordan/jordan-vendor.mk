@@ -125,7 +125,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/etc/motorola/comm_drv/PLMN_VERSION.txt:system/etc/motorola/comm_drv/PLMN_VERSION.txt
 
 #bin
-#vendor/motorola/jordan/bin/battd:system/bin/battd \
+
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/pvrsrvinit:system/bin/pvrsrvinit \
         vendor/motorola/jordan/bin/battd:system/bin/battd \
