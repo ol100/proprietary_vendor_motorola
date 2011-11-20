@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libsrv_um.so:system/lib/libsrv_um.so \
 	vendor/motorola/jordan/lib/libsoccamera.so:system/lib/libsoccamera.so \
 	vendor/motorola/jordan/lib/libbattd.so:system/lib/libbattd.so \
-	vendor/motorola/jordan/lib/libcryptoki.so:system/lib/libcryptoki.so \
 	vendor/motorola/jordan/lib/libganril.so:system/lib/libganril.so \
 	vendor/motorola/jordan/lib/libgki.so:system/lib/libgki.so \
 	vendor/motorola/jordan/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
@@ -35,8 +34,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libmotdb.so:system/lib/libmotdb.so \
 	vendor/motorola/jordan/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
 	vendor/motorola/jordan/lib/libssmgr.so:system/lib/libssmgr.so \
-	vendor/motorola/jordan/lib/libtpa.so:system/lib/libtpa.so \
-	vendor/motorola/jordan/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	vendor/motorola/jordan/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/jordan/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/jordan/lib/libsmapi.so:system/lib/libsmapi.so \
