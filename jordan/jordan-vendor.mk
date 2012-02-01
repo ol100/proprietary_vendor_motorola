@@ -80,7 +80,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/jordan/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
 	vendor/motorola/jordan/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/motorola/jordan/lib/libcamera.so:system/lib/libcamera.so 
+	vendor/motorola/jordan/lib/libcamera.so:obj/lib/libcamera.so \
+	vendor/motorola/jordan/lib/libcamera.so:system/lib/libcamera.so  
 #Moto etc
 PRODUCT_COPY_FILES += \
         vendor/motorola/jordan/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
