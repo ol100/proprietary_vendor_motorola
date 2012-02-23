@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/jordan_plus/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan_plus/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
-	vendor/motorola/jordan_plus/lib/hw/overlay.omap3.so:system/lib/hw/overlay.omap3.so \
 	vendor/motorola/jordan_plus/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	vendor/motorola/jordan_plus/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	vendor/motorola/jordan_plus/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
