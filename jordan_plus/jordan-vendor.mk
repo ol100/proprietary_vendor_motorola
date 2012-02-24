@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
         vendor/motorola/jordan_plus/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
         vendor/motorola/jordan_plus/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
         vendor/motorola/jordan_plus/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
-        vendor/motorola/jordan_plus/etc/cameraCalFileDef8M.bin:system/etc/cameraCalFileDef8M.bin \
         vendor/motorola/jordan_plus/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
 	vendor/motorola/jordan_plus/etc/motorola/ap_flex_version.txt:system/etc/motorola/ap_flex_version.txt \
 	vendor/motorola/jordan_plus/etc/motorola/bp_nvm_default/File_Audio:system/etc/motorola/bp_nvm_default/File_Audio \
