@@ -78,7 +78,9 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/jordan_plus/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
 	vendor/motorola/jordan_plus/lib/libusc.so:system/lib/libusc.so \
-	vendor/motorola/jordan_plus/lib/liboemcamera.so:system/lib/liboemcamera.so 
+	vendor/motorola/jordan_plus/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/motorola/jordan/lib/libcamera.so:obj/lib/libcamera.so \
+	vendor/motorola/jordan/lib/libcamera.so:system/lib/libcamera.so 
 
 #Moto etc
 PRODUCT_COPY_FILES += \
