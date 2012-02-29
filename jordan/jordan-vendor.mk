@@ -81,6 +81,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/motorola/jordan/lib/libcamera.so:obj/lib/libcamera.so \
 	vendor/motorola/jordan/lib/libcamera.so:system/lib/libcamera.so  
+	vendor/motorola/jordan/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so \
+
 #Moto etc
 PRODUCT_COPY_FILES += \
         vendor/motorola/jordan/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
