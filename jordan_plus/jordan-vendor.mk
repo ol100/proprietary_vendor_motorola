@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libsrv_init.so:system/lib/libsrv_init.so \
 	vendor/motorola/jordan_plus/lib/libsrv_um.so:system/lib/libsrv_um.so \
 	vendor/motorola/jordan_plus/lib/libsoccamera.so:system/lib/libsoccamera.so \
-	vendor/motorola/jordan_plus/lib/libbattd.so:system/lib/libbattd.so \
 	vendor/motorola/jordan_plus/lib/libgki.so:system/lib/libgki.so \
 	vendor/motorola/jordan_plus/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
 	vendor/motorola/jordan_plus/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
