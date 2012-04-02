@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	vendor/motorola/jordan_plus/lib/libmotdb.so:system/lib/libmotdb.so \
 	vendor/motorola/jordan_plus/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
+	vendor/motorola/jordan_plus/lib/libssmgr.so:system/lib/libssmgr.so \
 	vendor/motorola/jordan_plus/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/jordan_plus/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/jordan_plus/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
