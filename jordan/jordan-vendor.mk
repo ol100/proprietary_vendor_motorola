@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
 #Moto etc
 PRODUCT_COPY_FILES += \
         vendor/motorola/jordan/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-        vendor/motorola/jordan/etc/wifi/fw_tiwlan_ap_rfmd.bin:system/etc/wifi/fw_tiwlan_ap_rfmd.bin \
         vendor/motorola/jordan/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
         vendor/motorola/jordan/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
         vendor/motorola/jordan/etc/fmc_init_1273.2.bts:system/etc/fmc_init_1273.2.bts \
