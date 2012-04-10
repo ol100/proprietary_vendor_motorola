@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/kobe/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	vendor/motorola/kobe/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/kobe/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-
+	vendor/motorola/kobe/lib/libkobecamera.so:system/lib/libkobecamera.so \
 #Moto etc
 PRODUCT_COPY_FILES += \
         vendor/motorola/kobe/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
