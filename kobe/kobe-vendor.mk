@@ -16,9 +16,9 @@
 # LIBS
 PRODUCT_COPY_FILES += \
 	vendor/motorola/kobe/lib/libcamera.so:obj/lib/libcamera.so \
+	vendor/motorola/kobe/lib/libcamera.so:system/lib/libcamera.so \
 	vendor/motorola/kobe/lib/libaudio.so:obj/lib/libaudio.so \
 	vendor/motorola/kobe/lib/libaudio.so:system/lib/libaudio.so \
-	vendor/motorola/kobe/lib/libcamera.so:system/lib/libcamera.so \
 	vendor/motorola/kobe/lib/libIMGegl.so:system/lib/libIMGegl.so \
 	vendor/motorola/kobe/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/kobe/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
@@ -26,14 +26,12 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/kobe/lib/libsrv_init.so:system/lib/libsrv_init.so \
 	vendor/motorola/kobe/lib/libsrv_um.so:system/lib/libsrv_um.so \
 	vendor/motorola/kobe/lib/libbattd.so:system/lib/libbattd.so \
-	vendor/motorola/kobe/lib/libganril.so:system/lib/libganril.so \
 	vendor/motorola/kobe/lib/libgki.so:system/lib/libgki.so \
 	vendor/motorola/kobe/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
 	vendor/motorola/kobe/lib/libmotdb.so:system/lib/libmotdb.so \
 	vendor/motorola/kobe/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
 	vendor/motorola/kobe/lib/libssmgr.so:system/lib/libssmgr.so \
 	vendor/motorola/kobe/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
-	vendor/motorola/kobe/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/kobe/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/kobe/lib/hw/gps.kobe.so:system/lib/hw/gps.kobe.so \
 	vendor/motorola/kobe/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
@@ -61,27 +59,15 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/kobe/lib/dsp/mpeg4ingdec_sn.dll64P:system/lib/dsp/mpeg4ingdec_sn.dll64P \
 	vendor/motorola/kobe/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
 	vendor/motorola/kobe/lib/dsp/wmadec_sn.dll64P:system/lib/dsp/wmadec_sn.dll64P \
-	vendor/motorola/kobe/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
-	vendor/motorola/kobe/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	vendor/motorola/kobe/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
 	vendor/motorola/kobe/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
 	vendor/motorola/kobe/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
 	vendor/motorola/kobe/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
 	vendor/motorola/kobe/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
 	vendor/motorola/kobe/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-	vendor/motorola/kobe/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
-	vendor/motorola/kobe/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so \
-	vendor/motorola/kobe/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
-	vendor/motorola/kobe/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
 	vendor/motorola/kobe/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	vendor/motorola/kobe/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/kobe/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-	vendor/motorola/kobe/lib/libcaps.so:system/lib/libcaps.so \
-	vendor/motorola/kobe/lib/libarcsoft.so:system/lib/libarcsoft.so \
-	vendor/motorola/kobe/lib/libarcsoftpe.so:system/lib/libarcsoftpe.so \
-	vendor/motorola/kobe/lib/libpanorama.so:system/lib/libpanorama.so \
-	vendor/motorola/kobe/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
-	vendor/motorola/kobe/lib/libsmiledetect.so:system/lib/libsmiledetect.so \
 
 #Moto etc
 PRODUCT_COPY_FILES += \

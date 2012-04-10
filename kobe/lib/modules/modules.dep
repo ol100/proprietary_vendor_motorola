@@ -4,4 +4,3 @@ tiap_drv.ko:
 netmux_linkdriver.ko: netmux.ko
 netmux.ko:
 modem_pm_driver.ko:
-kineto_gan.ko:
