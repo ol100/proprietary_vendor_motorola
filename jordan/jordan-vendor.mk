@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/fmradioserver:system/bin/fmradioserver \
 	vendor/motorola/jordan/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	vendor/motorola/jordan/bin/akmd2:system/bin/akmd2 \
+	vendor/motorola/jordan/bin/usbd:system/bin/usbd \
 	vendor/motorola/jordan/bin/location:system/bin/location \
 	vendor/motorola/jordan/bin/ssmgrd:system/bin/ssmgrd
 
