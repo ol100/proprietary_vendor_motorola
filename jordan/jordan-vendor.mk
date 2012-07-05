@@ -20,24 +20,16 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libbayercamera.so:system/lib/libbayercamera.so \
 	vendor/motorola/jordan/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/motorola/jordan/lib/libcaps.so:system/lib/libcaps.so \
-	vendor/motorola/jordan/lib/libIMGegl.so:system/lib/libIMGegl.so \
-	vendor/motorola/jordan/lib/libpvr2d.so:system/lib/libpvr2d.so \
-	vendor/motorola/jordan/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-	vendor/motorola/jordan/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-	vendor/motorola/jordan/lib/libsrv_init.so:system/lib/libsrv_init.so \
-	vendor/motorola/jordan/lib/libsrv_um.so:system/lib/libsrv_um.so \
 	vendor/motorola/jordan/lib/libsoccamera.so:system/lib/libsoccamera.so \
 	vendor/motorola/jordan/lib/libbattd.so:system/lib/libbattd.so \
 	vendor/motorola/jordan/lib/libganril.so:system/lib/libganril.so \
 	vendor/motorola/jordan/lib/libgki.so:system/lib/libgki.so \
-	vendor/motorola/jordan/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
 	vendor/motorola/jordan/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	vendor/motorola/jordan/lib/libmotdb.so:system/lib/libmotdb.so \
 	vendor/motorola/jordan/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
 	vendor/motorola/jordan/lib/libssmgr.so:system/lib/libssmgr.so \
 	vendor/motorola/jordan/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/jordan/lib/librilswitch.so:system/lib/librilswitch.so \
-	vendor/motorola/jordan/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	vendor/motorola/jordan/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	vendor/motorola/jordan/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
@@ -68,9 +60,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
 	vendor/motorola/jordan/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
-	vendor/motorola/jordan/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-	vendor/motorola/jordan/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-	vendor/motorola/jordan/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
 	vendor/motorola/jordan/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
 	vendor/motorola/jordan/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
 	vendor/motorola/jordan/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so \
@@ -165,7 +154,6 @@ PRODUCT_COPY_FILES += \
 
 #bin
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan/bin/pvrsrvinit:system/bin/pvrsrvinit \
 	vendor/motorola/jordan/bin/battd:system/bin/battd \
 	vendor/motorola/jordan/bin/protocol_driver:system/bin/protocol_driver \
 	vendor/motorola/jordan/bin/opprofdaemon:system/bin/opprofdaemon \
@@ -179,6 +167,24 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/usbd:system/bin/usbd \
 	vendor/motorola/jordan/bin/location:system/bin/location \
 	vendor/motorola/jordan/bin/ssmgrd:system/bin/ssmgrd
+
+# TI SGX DDK 1.8 ES 5.x
+PRODUCT_COPY_FILES += \
+	vendor/motorola/jordan/ti_sgx_es5.x/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libEGL_POWERVR_SGX530_125.so:/system/lib/egl/libEGL_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libGLESv1_CM_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libGLESv2_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libpvr2d.so:/system/lib/libpvr2d.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libeglinfo.so:/system/lib/libeglinfo.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libusc.so:/system/lib/libusc.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libglslcompiler.so:/system/lib/libglslcompiler.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libsrv_um.so:/system/lib/libsrv_um.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libIMGegl.so:/system/lib/libIMGegl.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libsrv_init.so:/system/lib/libsrv_init.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
+	vendor/motorola/jordan/ti_sgx_es5.x/pvrsrvctl:/system/bin/pvrsrvctl \
+	vendor/motorola/jordan/ti_sgx_es5.x/pvrsrvinit:/system/bin/pvrsrvinit \
 
 #location proxy
 PRODUCT_COPY_FILES += \
