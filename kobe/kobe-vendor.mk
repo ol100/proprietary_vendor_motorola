@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/kobe/lib/libmotdb.so:system/lib/libmotdb.so \
 	vendor/motorola/kobe/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
 	vendor/motorola/kobe/lib/libssmgr.so:system/lib/libssmgr.so \
+	vendor/motorola/kobe/lib/libusc.so:system/lib/libusc.so \
 	vendor/motorola/kobe/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/kobe/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/kobe/lib/hw/gps.kobe.so:system/lib/hw/gps.kobe.so \
