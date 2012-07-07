@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/librilswitch.so:system/lib/librilswitch.so \
 	vendor/motorola/jordan/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
-	vendor/motorola/jordan/lib/hw/overlay.omap3.so:system/lib/hw/overlay.omap3.so \
 	vendor/motorola/jordan/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	vendor/motorola/jordan/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	vendor/motorola/jordan/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
@@ -71,6 +70,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
 	vendor/motorola/jordan/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
 	vendor/motorola/jordan/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan/lib/libusc.so:system/lib/libusc.so \
 	vendor/motorola/jordan/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
 	vendor/motorola/jordan/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
 	vendor/motorola/jordan/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
