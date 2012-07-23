@@ -126,7 +126,6 @@ PRODUCT_COPY_FILES += \
 
 #app
 PRODUCT_COPY_FILES += \
-	vendor/motorola/kobe/app/FMRadio.apk:system/app/FMRadio.apk \
 	vendor/motorola/kobe/app/FMRadioService.apk:system/app/FMRadioService.apk \
 	vendor/motorola/kobe/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
 	vendor/motorola/kobe/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
