@@ -177,7 +177,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/usbd:system/bin/usbd \
 	$(vendor_path)/bin/location:system/bin/location \
-	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd
+	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
+	$(vendor_path)/bin/battd:system/bin/battd
 
 #location proxy
 PRODUCT_COPY_FILES += \
