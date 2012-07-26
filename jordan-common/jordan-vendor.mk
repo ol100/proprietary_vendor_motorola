@@ -147,27 +147,25 @@ PRODUCT_COPY_FILES += \
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/ti_sgx_es5.x/gralloc.omap3.so:/system/lib/hw/gralloc.omap3.so \
-	$(vendor_path)/ti_sgx_es5.x/libEGL_POWERVR_SGX530_125.so:/system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_es5.x/libGLESv1_CM_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_es5.x/libGLESv2_POWERVR_SGX530_125.so:/system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_es5.x/libpvr2d.so:/system/lib/libpvr2d.so \
-	$(vendor_path)/ti_sgx_es5.x/libeglinfo.so:/system/lib/libeglinfo.so \
-	$(vendor_path)/ti_sgx_es5.x/libusc.so:/system/lib/libusc.so \
-	$(vendor_path)/ti_sgx_es5.x/libglslcompiler.so:/system/lib/libglslcompiler.so \
-	$(vendor_path)/ti_sgx_es5.x/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
-	$(vendor_path)/ti_sgx_es5.x/libsrv_um.so:/system/lib/libsrv_um.so \
-	$(vendor_path)/ti_sgx_es5.x/libIMGegl.so:/system/lib/libIMGegl.so \
-	$(vendor_path)/ti_sgx_es5.x/libsrv_init.so:/system/lib/libsrv_init.so \
-	$(vendor_path)/ti_sgx_es5.x/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
-	$(vendor_path)/ti_sgx_es5.x/pvrsrvctl:/system/bin/pvrsrvctl \
-	$(vendor_path)/ti_sgx_es5.x/pvrsrvinit:/system/bin/pvrsrvinit \
+	$(vendor_path)/ti_sgx_es5.x/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
+	$(vendor_path)/ti_sgx_es5.x/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_es5.x/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_es5.x/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_es5.x/libpvr2d.so:system/lib/libpvr2d.so \
+	$(vendor_path)/ti_sgx_es5.x/libeglinfo.so:system/lib/libeglinfo.so \
+	$(vendor_path)/ti_sgx_es5.x/libusc.so:system/lib/libusc.so \
+	$(vendor_path)/ti_sgx_es5.x/libglslcompiler.so:system/lib/libglslcompiler.so \
+	$(vendor_path)/ti_sgx_es5.x/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+	$(vendor_path)/ti_sgx_es5.x/libsrv_um.so:system/lib/libsrv_um.so \
+	$(vendor_path)/ti_sgx_es5.x/libIMGegl.so:system/lib/libIMGegl.so \
+	$(vendor_path)/ti_sgx_es5.x/libsrv_init.so:system/lib/libsrv_init.so \
+	$(vendor_path)/ti_sgx_es5.x/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+	$(vendor_path)/ti_sgx_es5.x/pvrsrvctl:system/bin/pvrsrvctl \
+	$(vendor_path)/ti_sgx_es5.x/pvrsrvinit:system/bin/pvrsrvinit \
 
-#bin
+# bin
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/bin/pvrsrvinit:system/bin/pvrsrvinit \
 	$(vendor_path)/bin/protocol_driver:system/bin/protocol_driver \
-	$(vendor_path)/bin/opprofdaemon:system/bin/opprofdaemon \
 	$(vendor_path)/bin/nvm_daemon:system/bin/nvm_daemon \
 	$(vendor_path)/bin/gkisystem:system/bin/gkisystem \
 	$(vendor_path)/bin/ap_gain.bin:system/bin/ap_gain.bin \
@@ -177,7 +175,15 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/usbd:system/bin/usbd \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
-	$(vendor_path)/bin/battd:system/bin/battd
+
+# Specific binaries
+ifeq ($(TARGET_PRODUCT),cm_mb526)
+    PRODUCT_COPY_FILES += $(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon
+    PRODUCT_COPY_FILES += $(vendor_path)/bin/battd_mb526:system/bin/battd
+else
+    PRODUCT_COPY_FILES += $(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon
+    PRODUCT_COPY_FILES += $(vendor_path)/bin/battd_mb525:system/bin/battd
+endif
 
 #location proxy
 PRODUCT_COPY_FILES += \
