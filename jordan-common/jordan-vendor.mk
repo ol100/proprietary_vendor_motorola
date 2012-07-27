@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
 	$(vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
-	$(vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
 	$(vendor_path)/lib/libgki.so:system/lib/libgki.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
 	$(vendor_path)/lib/libmsl_interface.so:system/lib/libmsl_interface.so \

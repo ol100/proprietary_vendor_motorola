@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         $(common_vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
         $(common_vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
-        $(common_vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
         $(common_vendor_path)/lib/libgki.so:system/lib/libgki.so \
         $(common_vendor_path)/lib/libssmgr.so:system/lib/libssmgr.so \
         $(common_vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.kobe.so \
