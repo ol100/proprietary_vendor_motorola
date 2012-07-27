@@ -19,7 +19,7 @@ vendor_path = vendor/motorola/kobe
 PRODUCT_COPY_FILES += \
         $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
         $(vendor_path)/lib/libkobecamera.so:system/lib/libkobecamera.so \
-        $(vendor_path)/bin/opprofdaemon:system/bin/opprofdaemon \
+        $(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon \
 
 # Moto-common stuff
 PRODUCT_COPY_FILES += \
