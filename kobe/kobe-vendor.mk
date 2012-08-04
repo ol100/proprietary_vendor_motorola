@@ -19,7 +19,7 @@ kobe_vendor_path = vendor/motorola/kobe
 PRODUCT_COPY_FILES += \
 	$(kobe_vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
 	$(kobe_vendor_path)/lib/libkobecamera.so:system/lib/libkobecamera.so \
-
+	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.kobe.so \
 # LIBS
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libsoccamera.so:system/lib/libsoccamera.so \
 	$(vendor_path)/lib/libbayercamera.so:system/lib/libbayercamera.so \
 	$(vendor_path)/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
-	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	$(vendor_path)/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	$(vendor_path)/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	$(vendor_path)/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
