@@ -167,7 +167,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/usbd:system/bin/usbd \
 	vendor/motorola/jordan/bin/location:system/bin/location \
 	vendor/motorola/jordan/bin/ssmgrd:system/bin/ssmgrd \
-	vendor/motorola/jordan/bin/panic_daemon:system/bin/panic_daemon
+	vendor/motorola/jordan/bin/panic_daemon:system/bin/panic_daemon \
+	vendor/motorola/jordan/bin/secclkd:system/bin/secclkd
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
