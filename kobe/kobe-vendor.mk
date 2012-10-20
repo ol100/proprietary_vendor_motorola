@@ -74,13 +74,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libsoccamera.so:system/lib/libsoccamera.so \
 	$(vendor_path)/lib/libbayercamera.so:system/lib/libbayercamera.so \
 	$(vendor_path)/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
-	$(vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
-	$(vendor_path)/lib/libcryptoki.so:system/lib/libcryptoki.so \
-	$(vendor_path)/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
-	$(vendor_path)/lib/libsmapi.so:system/lib/libsmapi.so \
-	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
-	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
-	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
 	$(vendor_path)/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	$(vendor_path)/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
 	$(vendor_path)/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
@@ -196,8 +189,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
 	$(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon \
 	$(vendor_path)/bin/battd_mb525:system/bin/battd \
-	$(vendor_path)/bin/secclkd:system/bin/secclkd \
-	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
 
 #location proxy
 PRODUCT_COPY_FILES += \
