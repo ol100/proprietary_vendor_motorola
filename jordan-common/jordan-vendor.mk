@@ -175,6 +175,11 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/usbd:system/bin/usbd \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
+	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
+	$(vendor_path)/bin/mount.exfat:system/bin/mount.exfat \
+	$(vendor_path)/bin/ntfs-3g:system/bin/ntfs-3g \
+	$(vendor_path)/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
+	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
 
 # Specific binaries
 ifeq ($(TARGET_PRODUCT),cm_mb526)
