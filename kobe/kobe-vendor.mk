@@ -198,6 +198,11 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/battd_mb525:system/bin/battd \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
+	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
+	$(vendor_path)/bin/mount.exfat:system/bin/mount.exfat \
+	$(vendor_path)/bin/ntfs-3g:system/bin/ntfs-3g \
+	$(vendor_path)/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
+	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
 
 #location proxy
 PRODUCT_COPY_FILES += \
