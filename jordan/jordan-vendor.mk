@@ -192,7 +192,6 @@ PRODUCT_COPY_FILES += \
 
 #app
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan/app/FMRadio.apk:system/app/FMRadio.apk \
 	vendor/motorola/jordan/app/FMRadioService.apk:system/app/FMRadioService.apk \
 	vendor/motorola/jordan/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
 	vendor/motorola/jordan/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
