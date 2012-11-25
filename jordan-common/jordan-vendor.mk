@@ -189,16 +189,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
-
-
-# Specific binaries
-ifeq ($(TARGET_PRODUCT),cm_mb526)
-    PRODUCT_COPY_FILES += $(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon
-    PRODUCT_COPY_FILES += $(vendor_path)/bin/battd_mb526:system/bin/battd
-else
-    PRODUCT_COPY_FILES += $(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon
-    PRODUCT_COPY_FILES += $(vendor_path)/bin/battd_mb525:system/bin/battd
-endif
+	$(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon \
+	$(vendor_path)/bin/battd_new:system/bin/battd
 
 #location proxy
 PRODUCT_COPY_FILES += \
