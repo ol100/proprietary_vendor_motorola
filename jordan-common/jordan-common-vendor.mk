@@ -14,8 +14,6 @@
 
 #app
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan-common/app/FMRadio.apk:system/app/FMRadio.apk \
-	vendor/motorola/jordan-common/app/FMRadioService.apk:system/app/FMRadioService.apk \
 	vendor/motorola/jordan-common/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
 	vendor/motorola/jordan-common/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
 	vendor/motorola/jordan-common/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk
