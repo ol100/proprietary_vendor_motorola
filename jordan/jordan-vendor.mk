@@ -155,7 +155,7 @@ PRODUCT_COPY_FILES += \
 
 #bin
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan/bin/battd:system/bin/battd \
+	vendor/motorola/jordan/bin/battd_new:system/bin/battd \
 	vendor/motorola/jordan/bin/protocol_driver:system/bin/protocol_driver \
 	vendor/motorola/jordan/bin/opprofdaemon:system/bin/opprofdaemon \
 	vendor/motorola/jordan/bin/nvm_daemon:system/bin/nvm_daemon \
