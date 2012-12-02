@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libssmgr.so:system/lib/libssmgr.so \
 	vendor/motorola/jordan/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/jordan/lib/librilswitch.so:system/lib/librilswitch.so \
+	vendor/motorola/jordan/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
 	vendor/motorola/jordan/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	vendor/motorola/jordan/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
@@ -137,7 +138,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/akmd2:system/bin/akmd2 \
 	vendor/motorola/jordan/bin/usbd:system/bin/usbd \
 	vendor/motorola/jordan/bin/location:system/bin/location \
-	vendor/motorola/jordan/bin/ssmgrd:system/bin/ssmgrd
+	vendor/motorola/jordan/bin/ssmgrd:system/bin/ssmgrd \
+	vendor/motorola/jordan/bin/panic_daemon:system/bin/panic_daemon
 
 #location proxy
 PRODUCT_COPY_FILES += \
