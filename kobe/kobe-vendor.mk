@@ -194,7 +194,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/usbd:system/bin/usbd \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
-	$(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon \
+	$(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon \
 	$(vendor_path)/bin/battd_new:system/bin/battd \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
