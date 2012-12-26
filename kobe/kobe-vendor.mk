@@ -70,10 +70,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	$(vendor_path)/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	$(vendor_path)/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-	$(vendor_path)/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	$(vendor_path)/lib/libsoccamera.so:system/lib/libsoccamera.so \
-	$(vendor_path)/lib/libbayercamera.so:system/lib/libbayercamera.so \
-	$(vendor_path)/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	$(vendor_path)/lib/libbattd.so:system/lib/libbattd.so \
 	$(vendor_path)/lib/libcryptoki.so:system/lib/libcryptoki.so \
 	$(vendor_path)/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
@@ -115,14 +111,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
 	$(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
 	$(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
-	$(vendor_path)/etc/motorola/ap_flex_version.txt:system/etc/motorola/ap_flex_version.txt \
-	$(vendor_path)/etc/motorola/comm_drv/commdrv_fs.sh:system/etc/motorola/comm_drv/commdrv_fs.sh \
-	$(vendor_path)/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg:system/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg \
-	$(vendor_path)/etc/motorola/comm_drv/mmins_settings.cfg:system/etc/motorola/comm_drv/mmins_settings.cfg \
-	$(vendor_path)/etc/motorola/comm_drv/mmins_telephony.cfg:system/etc/motorola/comm_drv/mmins_telephony.cfg \
-	$(vendor_path)/etc/motorola/comm_drv/mmins_user_settings.cfg:system/etc/motorola/comm_drv/mmins_user_settings.cfg \
-	$(vendor_path)/etc/motorola/comm_drv/plmn_text_table.bin:system/etc/motorola/comm_drv/plmn_text_table.bin \
-	$(vendor_path)/etc/motorola/comm_drv/PLMN_VERSION.txt:system/etc/motorola/comm_drv/PLMN_VERSION.txt
 
 # basebands
 PRODUCT_COPY_FILES += \
