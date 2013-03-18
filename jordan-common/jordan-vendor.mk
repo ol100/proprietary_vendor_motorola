@@ -190,7 +190,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
 	$(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon \
-	$(vendor_path)/bin/battd_new:system/bin/battd
+	$(vendor_path)/bin/battd_new:system/bin/battd \
+	$(vendor_path)/bin/gki_pd_notifier:system/bin/gki_pd_notifier
 
 #location proxy
 PRODUCT_COPY_FILES += \
