@@ -179,7 +179,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/fmradioserver:system/bin/fmradioserver \
 	$(vendor_path)/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
-	$(vendor_path)/bin/usbd:system/bin/usbd \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
 	$(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon \
@@ -198,7 +197,6 @@ PRODUCT_COPY_FILES += \
 
 #app
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
 	$(vendor_path)/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
 	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk 
 
